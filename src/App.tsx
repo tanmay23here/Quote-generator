@@ -5,7 +5,7 @@ import QuoteDisplay from './components/QuoteDisplay';
 import Settings from './components/Settings';
 import { AppProvider, useAppContext } from './context/AppContext';
 import { Settings as SettingsIcon } from 'lucide-react';
-import bgImage from '../assets/bg.png'
+import bgImage from '../src/assets/bg.png'
 
 
 const AppContent: React.FC = () => {
