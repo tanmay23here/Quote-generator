@@ -83,7 +83,7 @@ const QuoteDisplay: React.FC = () => {
     );
   }
 
-  if (!currentQuote || !selectedMood) {
+  if (!selectedMood) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
         <button
@@ -128,6 +128,10 @@ const QuoteDisplay: React.FC = () => {
         <QuoteSkeleton />
       </div>
     );
+  }
+
+  if (!currentQuote) {
+    return <QuoteSkeleton />;
   }
 
   return (
