@@ -5,6 +5,8 @@ import QuoteDisplay from './components/QuoteDisplay';
 import Settings from './components/Settings';
 import { AppProvider, useAppContext } from './context/AppContext';
 import { Settings as SettingsIcon } from 'lucide-react';
+import bgImage from '../assets/bg.png'
+
 
 const AppContent: React.FC = () => {
   const { setShowSettings } = useAppContext();
@@ -12,7 +14,7 @@ const AppContent: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col"
       style={{
-        backgroundImage: 'url("/src/assets/bg.png")',
+        backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
