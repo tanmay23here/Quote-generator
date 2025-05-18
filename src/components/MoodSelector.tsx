@@ -79,7 +79,7 @@ const MoodSelector: React.FC = () => {
                 : 'bg-amber-300 text-amber-700 cursor-not-allowed'
             }`}
           >
-            Seek Wisdom
+            Seek Quote
           </button>
         </div>
       </div>
