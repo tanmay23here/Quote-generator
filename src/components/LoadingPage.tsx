@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useAppContext } from '../context/AppContext';
 import '../styles/animations.css';
+import bgImage from '../assets/bg.png'
 
 const LoadingPage: React.FC = () => {
   const { isLoading } = useAppContext();
@@ -40,7 +41,7 @@ const LoadingPage: React.FC = () => {
         isLoading ? 'opacity-100' : 'opacity-0'
       }`}
       style={{
-        backgroundImage: 'url("/src/assets/bg.png")',
+        backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundBlendMode: 'multiply',

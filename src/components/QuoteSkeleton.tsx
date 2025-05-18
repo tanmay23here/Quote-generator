@@ -1,11 +1,12 @@
 import React from 'react';
+import bgImage from '../assets/bg.png'
 
 const QuoteSkeleton: React.FC = () => {
   return (
     <div className="animate-pulse w-full max-w-3xl mx-auto">
       <div className="relative rounded-lg overflow-hidden shadow-xl" 
         style={{
-          backgroundImage: 'url("/src/assets/bg.png")',
+          backgroundImage: `url(${bgImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           minHeight: '400px',

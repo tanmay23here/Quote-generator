@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import { RefreshCw, Book } from 'lucide-react';
 import QuoteSkeleton from './QuoteSkeleton';
+import bgImage from '../assets/bg.png'
 
 const QuoteDisplay: React.FC = () => {
   const { 
@@ -160,7 +161,7 @@ const QuoteDisplay: React.FC = () => {
       
       <div className="relative rounded-lg overflow-hidden shadow-xl" 
         style={{
-          backgroundImage: 'url("/src/assets/bg.png")',
+          backgroundImage: `url(${bgImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
