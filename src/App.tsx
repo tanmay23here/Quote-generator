@@ -26,7 +26,7 @@ const AppContent: React.FC = () => {
         <header className="py-6 px-4 sm:px-6 bg-gradient-to-b from-amber-950 to-transparent">
           <div className="max-w-5xl mx-auto flex justify-between items-center">
             <h1 className="text-2xl sm:text-3xl font-cinzel font-bold text-amber-100">
-              Bhagavad Gita Wisdom
+              Bhagavad Gita Quotes
             </h1>
             <button
               onClick={() => setShowSettings(true)}
@@ -46,7 +46,7 @@ const AppContent: React.FC = () => {
         
         <footer className="py-6 px-4 sm:px-6 bg-gradient-to-t from-amber-950 to-transparent">
           <div className="max-w-5xl mx-auto text-center text-amber-200 text-sm">
-            <p>© 2025 Bhagavad Gita Wisdom | Discover ancient wisdom for modern life</p>
+            <p>© 2025 Bhagavad Gita Quotes</p>
           </div>
         </footer>
       </div>
