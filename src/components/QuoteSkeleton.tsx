@@ -10,7 +10,7 @@ const QuoteSkeleton: React.FC = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           minHeight: '400px',
-          minWidth: '800px'
+          minWidth: '100%'
         }}
       >
         <div className="absolute inset-0 bg-amber-900 bg-opacity-60"></div>
