@@ -20,7 +20,6 @@ const QuoteDisplay: React.FC = () => {
   const [showTranslation, setShowTranslation] = useState(false);
   
   const languages = [
-    { id: 'marathi', name: 'Marathi' },
     { id: 'hindi', name: 'Hindi' },
     { id: 'spanish', name: 'Spanish' },
     { id: 'german', name: 'German' },
