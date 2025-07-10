@@ -1,5 +1,5 @@
 
-[functions.hello-world]
+[functions.quote-generator]
 enabled = true
 verify_jwt = true
 import_map = "./functions/hello-world/deno.json"
