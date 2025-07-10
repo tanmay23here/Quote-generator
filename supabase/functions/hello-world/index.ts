@@ -28,7 +28,6 @@ const generatePrompt = (mood: string) => {
     "sanskrit": "Sanskrit language text only with line breaks using without english\\n",
     "translations": {
       "english": "English translation",
-      "marathi": "Marathi translation",
       "hindi": "Hindi translation",
       "spanish": "Spanish translation",
       "german": "German translation",
