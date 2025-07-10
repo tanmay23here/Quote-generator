@@ -9,7 +9,7 @@ export const fetchQuoteByMood = async (moodId: string): Promise<Quote> => {
   try {
     
 
-    const { data, error } = await supabase.functions.invoke('quote-generator', {
+    const { data, error } = await supabase.functions.invoke('hello-world', {
       body: { moodId },
     })
 
